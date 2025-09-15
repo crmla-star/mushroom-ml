@@ -15,8 +15,8 @@ import matplotlib.pyplot as plt
 def main():
     st.title('Binary Classification Web App')
     st.sidebar.title('Binary Classification Web App')
-    st.markdown('𓍊𓋼𓍊𓋼𓍊 Are your mushrooms edible or poisonous? 𓍊𓋼𓍊𓋼𓍊')
-    st.sidebar.markdown('Are your mushrooms edible or poisonous?')
+    st.markdown('Are your mushrooms edible or poisonous?𓍊𓋼𓍊𓋼𓍊')
+    st.sidebar.markdown('Are your mushrooms edible or poisonous?🍄')
 
     @st.cache_data(persist=True)
     def load_data():
